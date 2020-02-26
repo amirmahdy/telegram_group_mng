@@ -84,10 +84,10 @@ def but_menu(update, context):
             users.remove(user_id)
             removeuser(user_id, 0)
 
-        if text == '⬅️':
+        if text == BACK_BTN:
             update.message.reply_text(MAIN_MENU, reply_markup=admin_markup)
             return CHOOSING
-        if text == '🏠':
+        if text == HOME_BTN:
             update.message.reply_text(rules, reply_markup=admin_markup)
             return CHOOSING
 
