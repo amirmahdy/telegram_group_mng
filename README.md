@@ -3,7 +3,9 @@ Group management in telegram using bot
 This python telegram bot will do the list below:
 
 1- Freeze and unfreeze the group at certain times on day.
+
 2- Restrict using predefined words.
+
 3- Manually group freezing by admins of group. 
 
 Using this simple group management you can limit and restrict malicious users and bots.
